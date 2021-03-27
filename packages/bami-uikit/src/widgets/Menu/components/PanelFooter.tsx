@@ -1,15 +1,14 @@
 import React from "react";
 import styled from "styled-components";
-import { CogIcon } from "../../../components/Svg";
 import IconButton from "../../../components/Button/IconButton";
+import { CogIcon } from "../../../components/Svg";
 import { MENU_ENTRY_HEIGHT } from "../config";
 import { PanelProps, PushedProps } from "../types";
-import CakePrice from "./CakePrice";
-import ThemeSwitcher from "./ThemeSwitcher";
-import SocialLinks from "./SocialLinks";
 import LangSelector from "./LangSelector";
+import SocialLinks from "./SocialLinks";
+import ThemeSwitcher from "./ThemeSwitcher";
 
-interface Props extends PanelProps, PushedProps {}
+interface Props extends PanelProps, PushedProps { }
 
 const Container = styled.div`
   flex: none;
@@ -57,7 +56,7 @@ const PanelFooter: React.FC<Props> = ({
   return (
     <Container>
       <SocialEntry>
-        <CakePrice cakePriceUsd={cakePriceUsd} />
+        {/* <CakePrice cakePriceUsd={cakePriceUsd} /> */}
         <SocialLinks />
       </SocialEntry>
       <SettingsEntry>

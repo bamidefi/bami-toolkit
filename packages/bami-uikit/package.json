@@ -1,14 +1,14 @@
 {
-  "name": "@pancakeswap-libs/uikit",
-  "version": "0.17.0",
-  "description": "Set of UI components for pancake projects",
+  "name": "@bami-libs/uikit",
+  "version": "0.1.2",
+  "description": "Set of UI components for bami projects",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
   "types": "dist/index.d.ts",
   "files": [
     "dist"
   ],
-  "repository": "https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit",
+  "repository": "https://github.com/bamidefi/bami-toolkit/tree/master/packages/bami-uikit",
   "license": "MIT",
   "scripts": {
     "start": "yarn storybook",
